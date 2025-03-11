@@ -81,6 +81,25 @@ uv run ascii_art.py --sea --chars @,a,b,c,d
 ```
 <img width="371" alt="image" src="https://github.com/user-attachments/assets/02a1eea7-9fc1-491c-b360-9eaf167e613c" />
 
+### Installation
+Inorder to install the required packages  you can choose to install and run `uv`:
+First install uv :
+```
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+and then run 
+
+```
+uv sync
+```
+or
+
+```
+uv add pandas matplotlib numpy
+```
+
+Alternatively, they could be installed using `pip install pandas matplotlib numpy`
+
 
 
 
